@@ -34,15 +34,15 @@ p:last-child {
 /* footer */
 footer {
   padding: 30px 0;
-  clear: both;
   width: 960px;
   font-size: 12px;
-  color: #fff;
   color: #ccc;
   text-align: center;
-  background: #666;
+  background: #667;
   border-top: 8px solid #4aaaa5;
   height: 50px;
+  bottom: 0;
+  position: fixed;
 }
 
 .main-section {
@@ -136,7 +136,7 @@ input[type=submit] {
   border-bottom: 0;
 }
 
-.wrapper {
+.something {
   /* Box-model */
   width: 1024px;
 
@@ -145,8 +145,8 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 768px) {
-  /* The wrapper's width will be 680px */
-  .wrapper {
+  /* The something's width will be 680px */
+  .something {
     width: 680px;
   }
 }
